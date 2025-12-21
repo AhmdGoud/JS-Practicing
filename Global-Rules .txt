@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practising</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/queries.css">
+    <!-- <link rel="icon" type="image" href="../Images/piccode.webp"> faicon image to the page -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> box icons  -->
+</head>
+<body>
+
+     
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+/* Global Rules*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: #312450; /* colors: #1743e3 #0bdaff #ffdb05 */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "poppins", sans-serif; /* fonts: Source Sans Pro, lato san serif */
+    background-color: #222;
+}
+.container{
+    width: 90%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*media queries*/
