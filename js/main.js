@@ -121,34 +121,4 @@
 // }
 // console.log(abc)
 // abc()
-/////
-
-
-// const ob = {
-//     n: 'ahmed',
-//     a: 28,
-//     m: function(){
-//         console.log(`my name is ${this.n} and my age is ${this.a}`)
-//         let arow = () =>{
-//             console.log(this)
-//         }
-//         arow()
-//     }
-// }
-// ob.m()
-// const obj = {}
-// obj.__proto__ = ob;
-// obj.n = 'gouda'
-// ob.m.call(obj)
-// obj.ad = 'adding'
-// obj.m()
-
-
-
-// start = [12, 10, 20]
-// end = [25, 20, 30] // how many tasks
-
-
-// weights = [10, 20, 30] // bag is 50
-// values = [60, 100, 120]
-
+///////
