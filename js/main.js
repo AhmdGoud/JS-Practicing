@@ -12,7 +12,6 @@
 // test()
 // console.log(ob.fn('ahmd', 'goda'))
 
-
 // class key => name refer to the block => { constrctor (parameters) =>{prop} and method}
 // class testing {
 //     constructor (name, age){
@@ -29,7 +28,6 @@
 // }
 // let obj = new testing('ahmed' , 28) // order matter here when calling
 // ----- //
-
 
 // function rgb(color){
 //     let arr = [...color]
@@ -54,7 +52,6 @@
 // }
 // console.log(rgb('RGBG'))
 
-
 // function isValidWalk(walk) {
 //     let x = 0;
 //     let y = 0;
@@ -77,7 +74,6 @@
 //     }
 // }
 // console.log(isValidWalk(['n','n','n','s','n','s','n','s','n','w']))
-
 
 // function createPhoneNumber(numbers){
 //     let finalnum, num1 = 1, num2 = 1;
@@ -122,3 +118,52 @@
 // console.log(abc)
 // abc()
 ///////
+
+// const arr = [2, 4, 6, 8, 10, 8, 6, 4, 2];
+// function findEvenIndex(arr) {
+//   let pointer = 1;
+
+//   while (pointer < arr.length - 1) {
+//     let left = 0;
+//     let right = 0;
+
+//     for (let i = pointer - 1; i >= 0; i--) {
+//       left += arr[i];
+//     }
+//     for (let i = pointer + 1; i < arr.length; i++) {
+//       right += arr[i];
+//     }
+
+//     if (left === right) {
+//       console.log(pointer);
+//       return;
+//     }
+//     pointer++;
+//   }
+// }
+// findEvenIndex(arr); // pointer Algo => o(n**2)
+// ------------------------------- //
+// const str = "is2 Thi1s T4est 3a";
+// function order(words) {
+//   const arr = words.split(" ");
+
+//   const letters = arr.map((ar) => {
+//     return [...ar];
+//   });
+
+//   const result = [];
+
+//   for (let i = 0; i < letters.length; i++) {
+//     for (let j = 0; j < letters[i].length; j++) {
+//       const letter = letters[i][j];
+//       if (/^\d$/.test(letter)) {
+//         result[letter - 1] = letters[i];
+//       }
+//     }
+//   }
+
+//   const final = result.map((re) => re.join(""));
+//   const finalResult = final.join(" ");
+//   return finalResult;
+// }
+// console.log(order(str)); // "Thi1s is2 3a T4est"

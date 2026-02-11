@@ -314,7 +314,14 @@ let data = {name: 'ahmed', age:25}
 console.log(data == {name: 'ahmed', age:25}) // {false} as JS compares objects by references as objects are not
 // primitev data types , but if the data are primitev then JS compares it's values 
 
+// bracket notation looks for the value of the variable,
+// unlike dot notation which looks for a property with the same name
 
+// Object.entries(formInputs).forEach(([key, values]) =>{ // bracket notation
+    // as we destructure them for the entries
+// Object.entries return an array of key and value
+
+// return; keyword just stops the single excuation in the foreach
 
 //-----------------------------------//
 seats = [[220, 25], [30, 35], [40, 45]]
